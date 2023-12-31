@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: #eee;
+}
+.pagination {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%)
+}
+.pagination a {
+    background: #ADCBD7;
+    padding: 10px 16px;
+    margin: 1px;
+    text-decoration: none;
+    color: #1A374D;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.pagination a.icon {
+    margin-right: 4px;
+}
+.pagination a.icon-right {
+    margin-left: 4px;
+}
+.pagination .here{
+    background: #1A374D;
+    color: #ADCBD7;
+}
+
+.pagination a:hover {
+    background: #6998AB;
+    color: #1A374D;
+    transtition-delay: 0.3s;
+}
